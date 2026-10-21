@@ -1,0 +1,224 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.app-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2f45;
+}
+
+.tab-pane .tab-header-background {
+    -fx-background-color: #f2f4f7;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #e8ecf2;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cfd8e3 #cfd8e3 transparent #cfd8e3;
+    -fx-border-width: 1;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: #33435a;
+    -fx-font-weight: bold;
+}
+
+.panel-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c4a73;
+}
+
+.board-frame {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #d3dbe6;
+    -fx-border-width: 1;
+}
+
+.journal {
+    -fx-font-family: "Consolas", "Menlo", "Monospaced";
+    -fx-font-size: 12px;
+}
+
+.journal .content {
+    -fx-background-color: #fafbfc;
+}
+
+.reasoning-box {
+    -fx-background-color: #f5f7fa;
+    -fx-background-radius: 10;
+    -fx-border-color: #e1e6ee;
+    -fx-border-radius: 10;
+    -fx-padding: 10 14 10 14;
+}
+
+.percept-label {
+    -fx-font-family: "Consolas", "Menlo", "Monospaced";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2f45;
+}
+
+.reasoning-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #33435a;
+}
+
+.advice-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f7a3a;
+}
+
+.settings-section > .title {
+    -fx-background-color: #f6f8fb;
+    -fx-background-radius: 8;
+    -fx-border-color: #dde3ec;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.settings-section .title .text {
+    -fx-fill: #2c4a73;
+    -fx-font-weight: bold;
+}
+
+.settings-section > .content {
+    -fx-background-color: #fbfcfd;
+    -fx-border-color: #eaeef3;
+    -fx-border-width: 0 1 1 1;
+}
+
+.field-label {
+    -fx-text-fill: #37465a;
+    -fx-font-size: 12px;
+}
+
+.settings-section .text-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2a36;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #cdd6e2;
+}
+
+.settings-section .text-field:focused {
+    -fx-border-color: #3a7ca5;
+}
+
+.step-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2f45;
+}
+
+.stats-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3a4a5f;
+}
+
+.status-label {
+    -fx-text-fill: #5c6878;
+    -fx-font-size: 12.5px;
+}
+
+.status-label.status-error {
+    -fx-text-fill: #c0392b;
+    -fx-font-weight: bold;
+}
+
+.status-label.status-won {
+    -fx-text-fill: #1f7a3a;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.status-label.status-lost {
+    -fx-text-fill: #a83224;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.legend-label {
+    -fx-text-fill: #5c6878;
+    -fx-font-size: 12px;
+}
+
+.control-bar {
+    -fx-background-color: #f4f6f9;
+    -fx-background-radius: 12;
+    -fx-border-color: #e1e6ee;
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+}
+
+.steps-group {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-border-color: #d7dee8;
+    -fx-border-radius: 20;
+    -fx-padding: 6 12 6 12;
+}
+
+.speed-slider .track {
+    -fx-background-color: #d7dee8;
+    -fx-background-radius: 4;
+}
+
+.speed-slider .thumb {
+    -fx-background-color: #3a7ca5;
+}
+
+.action-button {
+    -fx-background-radius: 20;
+    -fx-padding: 9 18 9 18;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+.button-reset {
+    -fx-background-color: #3a7ca5;
+}
+.button-reset:hover {
+    -fx-background-color: #4a92c0;
+}
+
+.button-step {
+    -fx-background-color: #3f9d5c;
+}
+.button-step:hover {
+    -fx-background-color: #4dba6f;
+}
+
+.button-play {
+    -fx-background-color: #d98a2b;
+}
+.button-play:hover {
+    -fx-background-color: #eea23f;
+}
+
+.button-play.running {
+    -fx-background-color: #c94f3a;
+}
+.button-play.running:hover {
+    -fx-background-color: #e05f48;
+}
+
+.button-manual {
+    -fx-background-color: #5b6b82;
+    -fx-padding: 7 12 7 12;
+}
+.button-manual:hover {
+    -fx-background-color: #6f819b;
+}

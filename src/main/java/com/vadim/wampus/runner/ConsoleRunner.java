@@ -11,6 +11,7 @@ import com.vadim.wampus.world.Cave;
 import com.vadim.wampus.world.CaveGenerator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
@@ -18,6 +19,7 @@ import java.util.Scanner;
 
 @Component
 @RequiredArgsConstructor
+@ConditionalOnProperty(name = "wampus.console", havingValue = "true")
 public class ConsoleRunner implements CommandLineRunner {
 
     /** Команды ручного режима. Пустая строка (Enter) — ход агента. */

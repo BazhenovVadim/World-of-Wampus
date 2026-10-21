@@ -6,6 +6,8 @@ logging:
     root: WARN
 
 wampus:
+  # true — консольный режим, false — окно JavaFX
+  console: false
   # auto — агент играет сам; manual — играет пользователь, агент подсказывает
   mode: auto
   size: 4

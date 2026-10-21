@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "wampus")
 public class WampusProperties {
 
+    /** When true, execute {@code ConsoleRunner} and do not open the JavaFX window. */
+    private boolean console;
+
     /** Кто управляет охотником в консоли: агент сам или пользователь с подсказками агента. */
     private ControlMode mode = ControlMode.AUTO;
 
