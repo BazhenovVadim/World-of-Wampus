@@ -1,0 +1,21 @@
+spring:
+  main:
+    banner-mode: off
+logging:
+  level:
+    root: WARN
+
+wampus:
+  # auto — агент играет сам; manual — играет пользователь, агент подсказывает
+  mode: auto
+  size: 4
+  # ям = round(size * size * pit-ratio)
+  pit-ratio: 0.2
+  # 0 — случайная пещера при каждом запуске
+  seed: 0
+  # мир из методички: W в 2,1, золото в 2,2, ямы в 1,4 / 2,3 / 4,3
+  demo: false
+  # допустимая вероятность гибели при вынужденном рискованном ходе (0 — не рисковать)
+  max-risk: 0.35
+  max-steps: 500
+  show-world: false
